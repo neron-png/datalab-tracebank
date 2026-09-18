@@ -1,4 +1,4 @@
-# TraceBank: Zero-Training Online Process Conformance Monitoring for AI Agents
+# Zero-Training Online Process Conformance Monitoring for AI Agents
 
 Reproduction code for *"Zero-Training Online Process Conformance Monitoring for AI Agents"* (Panagiotopoulos et al.).
 
