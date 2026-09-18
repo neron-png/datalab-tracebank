@@ -1,0 +1,303 @@
+{
+ "_source": "/home/neron/lab/tau2-experiments/src/tau2",
+ "domains": {
+  "airline": {
+   "book_reservation": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "calculate": {
+    "side": "agent",
+    "type": "GENERIC"
+   },
+   "cancel_reservation": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "get_flight_status": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_reservation_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_user_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "list_all_airports": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "search_direct_flight": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "search_onestop_flight": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "send_certificate": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "transfer_to_human_agents": {
+    "side": "agent",
+    "type": "GENERIC"
+   },
+   "update_reservation_baggages": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "update_reservation_flights": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "update_reservation_passengers": {
+    "side": "agent",
+    "type": "WRITE"
+   }
+  },
+  "retail": {
+   "calculate": {
+    "side": "agent",
+    "type": "GENERIC"
+   },
+   "cancel_pending_order": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "exchange_delivered_order_items": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "find_user_id_by_email": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "find_user_id_by_name_zip": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_item_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_order_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_product_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_user_details": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "list_all_product_types": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "modify_pending_order_address": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "modify_pending_order_items": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "modify_pending_order_payment": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "modify_user_address": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "return_delivered_order_items": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "transfer_to_human_agents": {
+    "side": "agent",
+    "type": "GENERIC"
+   }
+  },
+  "telecom": {
+   "can_send_mms": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_apn_settings": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_app_permissions": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_app_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_data_restriction_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_installed_apps": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_network_mode_preference": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_network_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_payment_request": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_sim_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_status_bar": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_vpn_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_wifi_calling_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "check_wifi_status": {
+    "side": "user",
+    "type": "READ"
+   },
+   "connect_vpn": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "disable_roaming": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "disconnect_vpn": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "enable_roaming": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "get_bills_for_customer": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_customer_by_id": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_customer_by_name": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_customer_by_phone": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_data_usage": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "get_details_by_id": {
+    "side": "agent",
+    "type": "READ"
+   },
+   "grant_app_permission": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "make_payment": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "reboot_device": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "refuel_data": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "reseat_sim_card": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "reset_apn_settings": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "resume_line": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "run_speed_test": {
+    "side": "user",
+    "type": "READ"
+   },
+   "send_payment_request": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "set_apn_settings": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "set_network_mode_preference": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "suspend_line": {
+    "side": "agent",
+    "type": "WRITE"
+   },
+   "toggle_airplane_mode": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "toggle_data": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "toggle_data_saver_mode": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "toggle_roaming": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "toggle_wifi": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "toggle_wifi_calling": {
+    "side": "user",
+    "type": "WRITE"
+   },
+   "transfer_to_human_agents": {
+    "side": "agent",
+    "type": "GENERIC"
+   }
+  }
+ }
+}

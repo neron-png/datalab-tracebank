@@ -1,0 +1,6 @@
+[submodule "vendor/tau-bench"]
+	path = vendor/tau-bench
+	url = https://github.com/sierra-research/tau-bench.git
+[submodule "vendor/tau2-experiments"]
+	path = vendor/tau2-experiments
+	url = https://github.com/neron-png/tau2-experiments.git
